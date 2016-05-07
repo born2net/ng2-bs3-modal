@@ -13,7 +13,7 @@
     "uglify": "node ./node_modules/.bin/uglifyjs ./bundles/ng2-bs3-modal.js --output ./bundles/ng2-bs3-modal.min.js",
     "bundles": "npm run tsc-single && npm run uglify",
     "build": "npm run clean && npm run lint && npm run tsc && npm run bundles",
-    "prepublish": "npm run build",
+    "prepublish_XXX": "npm run build",
     "test": "node ./node_modules/.bin/karma start"
   },
   "repository": {
@@ -34,15 +34,13 @@
   "homepage": "https://github.com/dougludlow/ng2-bs3-modal#readme",
   "devDependencies": {
     "bootstrap": "^3.3.6",
-    "es6-shim": "^0.33.13",
-    "jasmine": "^2.4.1",
+    "es6-shim": "^0.35",
     "jquery": "^2.2.1",
     "reflect-metadata": "^0.1.2",
     "rimraf": "^2.5.1",
-    "rxjs": "^5.0.0-beta.0",
-    "systemjs": "^0.19.23",
-    "tslint": "^3.4.0-dev.1",
-    "typescript": "^1.9.0-dev.20160217",
+    "rxjs": "^5.0.0-beta.3",
+    "systemjs": "^0.19",
+    "typescript": "^1.8",
     "uglify-js": "^2.6.2",
     "zone.js": "^0.5.14"
   },
