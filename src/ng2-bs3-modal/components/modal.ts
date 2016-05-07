@@ -1,4 +1,4 @@
-import { Component, AfterViewInit, OnDestroy, Input, Output, EventEmitter, Type } from 'angular2/core';
+import { Component, AfterViewInit, OnDestroy, Input, Output, EventEmitter, Type } from '@angular/core';
 
 declare var jQuery: any;
 
