@@ -70,7 +70,7 @@ export class ModalComponent implements OnDestroy {
     }
 
     private hide() {
-        if (!this.hiding) this.$modal.modal('hide');
+        if (!this.hiding && this.$modal != null) this.$modal.modal('hide');
     }
 
     private isSmall() {
